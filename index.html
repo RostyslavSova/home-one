@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tesla Motors</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
      <section>
@@ -25,19 +26,25 @@
             </footer>
         </article>
         <section class="tesla-cars">
-            <header><h2>Our cars:</h2></header>
-            <article class="tesla-car">
-                <header><h3>Tesla Model S</h3></header>
+            <header>
+                <h2>Our cars:</h2>
+            </header>
+            <article class="tesla-car" id="model-s">
+                <header>
+                    <h3>Tesla Model S</h3>
+                </header>
                 <p>Model S is designed from the ground up to be the safest, most exhilarating sedan 
                     on the road. With unparalleled performance delivered through Tesla's unique, 
                     all-electric powertrain, Model S accelerates from 0 to 100 km/h in as little as 
                     2.7 seconds. Model S comes with Autopilot capabilities designed to make your 
                     highway driving not only safer, but stress free.</p>
                 <img src="tesla-model-s.jpg" alt="Tesla Model S" height="200" width="300">
-                <h3>Specification:</h3>
-                <table border="1">
-                    <caption><strong>Model S features (past and current)</strong></caption>
-                    <tbody>
+                <h3>More information:</h3>
+                 <table border="1">
+                    <caption>
+                        <strong>Model S features (past and current)</strong>
+                    </caption>
+                    <thead>
                         <tr>
                             <th rowspan="2"></th>
                             <th>40 kWh</th>
@@ -49,25 +56,28 @@
                             <th colspan="2">100 kWh</th>
                         </tr>
                         <tr>
-                            <td>RWD</td>
-                            <td>RWD(60)</td>
-                            <td>AWD(60D)</td>
-                            <td>RWD(70)</td>
-                            <td>AWD(70D)</td>
-                            <td>RWD(75)</td>
-                            <td>AWD(75D)</td>
-                            <td>RWD(85)</td>
-                            <td>AWD(85D)</td>
-                            <td>RWD Perf, (P85)</td>
-                            <td>RWD Perf, Plus (P85+)</td>
-                            <td>AWD Perf, (P85D)</td>
-                            <td>Ludicrous, (P85D)</td>
-                            <td>AWD (90D)</td>
-                            <td>AWD Perf. (P90D)</td>
-                            <td>Ludicrous (P90D)</td>
-                            <td>Ludicrous (P100D)</td>
-                            <td>AWD (100D)</td>
-                        </tr>
+                            <th>RWD</th>
+                            <th>RWD(60)</th>
+                            <th>AWD(60D)</th>
+                            <th>RWD(70)</th>
+                            <th>AWD(70D)</th>
+                            <th>RWD(75)</th>
+                            <th>AWD(75D)</th>
+                            <th>RWD(85)</th>
+                            <th>AWD(85D)</th>
+                            <th>RWD Perf, (P85)</th>
+                            <th>RWD Perf, Plus (P85+)</th>
+                            <th>AWD Perf, (P85D)</th>
+                            <th>Ludicrous, (P85D)</th>
+                            <th>AWD (90D)</th>
+                            <th>AWD Perf. (P90D)</th>
+                            <th>Ludicrous (P90D)</th>
+                            <th>Ludicrous (P100D)</th>
+                            <th>AWD (100D)</th>
+                        </tr> 
+                    </thead>
+                    <tbody>
+                       
                          <tr>
                             <th>Range: </th>
                             <td><pre>EPA:<br> 139 mi<br> 224 km</pre></td>
@@ -254,14 +264,72 @@
                     <hr>
                 </footer>
             </article>
-            <article class="tesla-car">
-                <header><h3>Tesla Model X</h3></header>
+            <article class="tesla-car" id="model-x">
+                <header>
+                    <h3>Tesla Model X</h3>
+                </header>
                 <p>Model X is the safest, quickest and most capable sport utility vehicle in history.
                     With all-wheel drive and a 100 kWh battery providing 475 kilometers of range, Model X
                     has ample seating for seven adults and all of their gear. And it’s ludicrously fast,
                     accelerating from zero to 100 kilometers per hour in as quick as 3.1 seconds. 
                     Model X is the SUV uncompromised.</p>
                 <img src="tesla-model-x.png" alt="Tesla Model X" height="200"  width="300">
+                <h3>More information:</h3>
+                  <table border="1">
+                    <caption>
+                        <strong>2016 Tesla Model X fuel economy and operating costs</strong>
+                    </caption>
+                     <thead>
+                            <tr>
+                            <th rowspan="2">Model</th>
+                            <th rowspan="2">Model<br>year</th>
+                            <th colspan="3">Fuel efficiency (MPGe)</th>
+                            <th rowspan="2">25 mi<br>(40 km)<br> journey<br> cost</th>
+                            <th rowspan="2">Annual fuel<br> cost<sup>[a]</sup><br> (15,000 mi or<br> 24,000 km)</th>
+                        </tr>
+                         <tr>
+                            <th>Combined</th>
+                            <th>City</th>
+                            <th>Highway</th>
+                        </tr>
+                     </thead>
+                    <tbody>
+                        <tr>
+                          <td>AWD 90D<br>(90 kWh)</td>
+                          <td>2016</td>
+                          <td>92;<br>34 kWh/100 mi<br>or<br>21 kWh/100 km</td>
+                          <td>90;<br>37 kWh/100 mi<br>or<br>23 kWh/100 km</td>
+                          <td>94;<br>32 kWh/100 mi<br>or<br>20 kWh/100 km</td>
+                          <td>US$1.11</td>
+                          <td>US$650</td>
+                        </tr>
+                        <tr>
+                          <td>AWD P90D<br>(90 kWh)</td>
+                          <td>2016</td>
+                          <td>89;<br>38 kWh/100 mi<br>or<br>24 kWh/100 km</td>
+                          <td>89;<br>38 kWh/100 mi<br>or<br>24 kWh/100 km</td>
+                          <td>90;<br>38 kWh/100 mi<br>or<br>24 kWh/100 km</td>
+                          <td>US$1.14</td>
+                          <td>US$700</td>
+                        </tr>
+                        <tr>
+                          <td>AWD P100D<br>(100 kWh)</td>
+                          <td>2016</td>
+                          <td>86;<br>38 kWh/100 mi<br>or<br>24 kWh/100 km</td>
+                          <td>81;<br>38 kWh/100 mi<br>or<br>24 kWh/100 km</td>
+                          <td>92;<br>38 kWh/100 mi<br>or<br>24 kWh/100 km</td>
+                          <td>US$1.14</td>
+                          <td>US$750</td>
+                        </tr>
+                    </tbody>
+                     <tfoot>
+                        <tr>
+                            <td colspan="7">[a] Based on 45% highway and 55% city driving. Values rounded to the nearest US$50. Electricity cost of
+                                US$0.12/kWh, as of 21 August 2015. 1 US gal (3.8 L) gasoline = 33.7 kWh.
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
                 <h4>Awards:</h4>
                  <ul>
                     <li>On November 8, 2016 the Model X was awarded the Golden Steering Wheel,
@@ -276,14 +344,124 @@
                     <hr>
                 </footer>
             </article>
-            <article class="tesla-car">
-                <header><h3>Tesla Model 3</h3></header>
+            <article class="tesla-car" id="model-3">
+                <header>
+                    <h3>Tesla Model 3</h3>
+                </header>
                 <p>Designed to attain the highest safety ratings in every category, Model 3 
                     achieves 220 miles of range while starting at only 35,000 USD before incentives.
                     Model 3 is a smaller, simpler, more affordable electric car then Model S. 
                     Although it is our newest vehicle, Model 3 is not “Version 3” or the most 
                     advanced Tesla. Like Model S, it is designed to be the safest car in its class.</p>
                 <img src="tesla-model-3.png" alt="Tesla Model 3" height="200"  width="300">
+                 <h3>More information:</h3>
+                 <table border="1">
+                    <caption>
+                        <strong>Specification of the Tesla Model 3</strong>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Model</th>
+                            <th>Standart Range</th>
+                            <th>Long Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Range</th>
+                            <td>220 mi (350 km)</td>
+                            <td>310 mi (500 km)</td>
+                        </tr>
+                        <tr>
+                            <th>Acceleration</th>
+                            <td>5.6 second 0–60 mph<br>(0–97 km/h)<br>time</td>
+                            <td>5.6 second 0–60 mph<br>(0–97 km/h)<br>time</td>
+                        </tr>
+                        <tr>
+                            <th>Top speed</th>
+                            <td>130 mph (210 km/h)</td>
+                            <td>140 mph (225 km/h)</td>
+                        </tr>
+                        <tr>
+                            <th>Battery capacity</th>
+                            <td>50 kWh (180 MJ)</td>
+                            <td>75 kWh (270 MJ)</td>
+                        </tr>
+                        <tr>
+                            <th>DC charging</th>
+                            <td>130 miles (210 km) range available after 30 minutes</td>
+                            <td>170 miles (270 km) range available after 30 minutes</td>
+                        </tr>
+                         <tr>
+                            <th>DC billing</th>
+                            <td colspan="2">Pay-per-use billing for Supercharging</td>
+                        </tr>
+                        <tr>
+                            <th>AC charging</th>
+                            <td>30 miles (48 km) range per hour (240V outlet, 32A)</td>
+                            <td>37 miles (60 km) range per hour (240V outlet, 40A)</td>
+                        </tr>
+                         <tr>
+                            <th>AC voltage</th>
+                            <td colspan="2">Worldwide electrical voltage and amperage charging compatibility</td>
+                        </tr>
+                        <tr>
+                            <th>Autonomous capacity</th>
+                            <td colspan="2">Full self-driving hardware (not yet active), used for standard active safety measures</td>
+                        </tr>
+                        <tr>
+                            <th>Layout</th>
+                            <td colspan="2">Rear-wheel drive</td>
+                        </tr>
+                        <tr>
+                            <th>Luggage</th>
+                            <td colspan="2">Rear 12 cu ft (340 L) and front 3 cu ft (85 L) trunks with 15 cu ft (425 L) total volume</td>
+                        </tr>
+                        <tr>
+                            <th>Rear seat</th>
+                            <td colspan="2">60/40-split-folding rear seat</td>
+                        </tr>
+                        <tr>
+                            <th>Roof</th>
+                            <td colspan="2">Center-roof-panel options: standard metal, glass, roof rack and probably solar</td>
+                        </tr>
+                        <tr>
+                            <th>Display</th>
+                            <td colspan="2">Single center-mounted 15.4-inch (39 cm) LCD touchscreen in landscape orientation that combines the instrument cluster and infotainment</td>
+                        </tr>
+                        <tr>
+                            <th>Entry</th>
+                            <td colspan="2">Keyless NFC keycard and Bluetooth smartphone connection for vehicle access</td>
+                        </tr>
+                         <tr>
+                            <th>Roof</th>
+                            <td colspan="2">Rear roof area is one continuous piece of glass</td>
+                        </tr>
+                        <tr>
+                            <th>Wheels</th>
+                            <td colspan="2">18-inch (460 mm) diameter</td>
+                        </tr>
+                         <tr>
+                            <th colspan="3">Optional upgrades</th>
+                        </tr>
+                        <tr>
+                            <th>Driver assistance</th>
+                            <td colspan="2">Enhanced Autopilot's lane-keeping, lane-changing, and self-parking modes</td>
+                        </tr>
+                        <tr>
+                            <th>Paint</th>
+                            <td colspan="2">Non-black metallic-paint colors</td>
+                        </tr>
+                         <tr>
+                            <th>Wheels</th>
+                            <td colspan="2">19-inch (480 mm) diameter</td>
+                        </tr>
+                        <tr>
+                            <th>Layout</th>
+                            <td colspan="2">Dual-motor all-wheel drive (production to begin in the second quarter of 2018)</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <h4>Awards:</h4>
                  <ul>
                     <li>Tesla Model 3: 2018 Morot trend car of the year finalist.</li>
@@ -293,8 +471,10 @@
                     <hr>
                 </footer>
             </article>
-            <article class="tesla-car">
-                <header><h3>Tesla Roadster</h3></header>
+            <article class="tesla-car" id="model-r">
+                <header>
+                    <h3>Tesla Roadster</h3>
+                </header>
                 <p>The quickest car in the world, with record-setting acceleration, range and 
                 performance. As an all-electric supercar, Roadster maximizes the potential of 
                 aerodynamic engineering—with record-setting performance and efficiency.
@@ -302,6 +482,127 @@
                 A lightweight, removable Glass Roof stores in the trunk for an open-air, convertible
                 driving experience.</p>
                 <img src="tesla-roadster.jpg" alt="Tesla Model 3" height="200"  width="300">
+                <h3>More information</h3>
+                <table border="1">
+                    <caption>
+                        <strong>Technical data</strong>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Tesla Roadster</th>
+                            <th>Tesla Roadster ("P1") 1.5 Standard</th>
+                            <th>Tesla Roadster 2.0</th>
+                            <th>Tesla Roadster 2.5 base</th>
+                            <th>Tesla Roadster 2.5 Sport</th>
+                            <th>Tesla Roadster R80 (3.0) upgrade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Introduced</th>
+                            <td>2006</td>
+                            <td>2007</td>
+                            <td>2009</td>
+                            <td>2010</td>
+                            <td>2010</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <th>Transmission</th>
+                            <td>2 forward speeds + reverse (by reversing the motor)
+                                <ul>
+                                    <li>1st gear: 4.20:1</li>
+                                    <li>2nd gear: 2.17:1Reverse by reversing the motor (speed electronically limited)</li>
+                                    <li>Final drive: 3.41:1</li>
+                                </ul>
+                            </td>
+                            <td colspan="5">Single speed BorgWarner fixed gear (8.27:1 ratio)</td>
+                        </tr>
+                        <tr>
+                            <th>Power</th>
+                            <td>185 kW (248 hp)</td>
+                            <td>185 kW (248 hp)</td>
+                            <td>185 kW (248 hp)</td>
+                            <td>215 kW (288 hp)</td>
+                            <td>215 kW (288 hp)</td>
+                            <td>215 kW (288 hp)</td>
+                        </tr>
+                        <tr>
+                            <th>Torque</th>
+                            <td>240 N⋅m (180 lb⋅ft)</td>
+                            <td>370 N⋅m (273 lb⋅ft)</td>
+                            <td>370 N⋅m (273 lb⋅ft)</td>
+                            <td>370 N⋅m (273 lb⋅ft)</td>
+                            <td>400 N⋅m (295 lb⋅ft)</td>
+                            <td>400 N⋅m (295 lb⋅ft)</td>
+                        </tr>
+                        <tr>
+                            <th>Battery</th>
+                            <td>53kWh</td>
+                            <td>53kWh</td>
+                            <td>53kWh</td>
+                            <td>53kWh</td>
+                            <td>53kWh</td>
+                            <td>80kWh</td>
+                        </tr>
+                        <tr>
+                            <th>Range</th>
+                            <td>320 to 400 km (200 to 250 mi)</td>
+                            <td>372 km (231 mi)</td>
+                            <td>393 km (244 mi)</td>
+                            <td>393 km (244 mi)</td>
+                            <td>393 km (244 mi)</td>
+                            <td>640 km (400 mi)</td>
+                        </tr>
+                        <tr>
+                            <th>Aerodynamics</th>
+                            <td>0.36</td>
+                            <td>0.36</td>
+                            <td>0.36</td>
+                            <td>0.36</td>
+                            <td>0.36</td>
+                            <td>0.31</td>
+                        </tr>
+                        <tr>
+                            <th>0–100 km/h (62 mph)</th>
+                            <td>around four seconds<br>5.7 seconds (limited due to durability)</td>
+                            <td>4.0 sec</td>
+                            <td>3.9 sec</td>
+                            <td>3.9 sec</td>
+                            <td>3.7 sec</td>
+                            <td>3.7 sec</td>
+                        </tr>
+                        <tr>
+                            <th>Curb weight (kg) / (lb)<br>All fluids, 50% fuel</th>
+                            <td></td>
+                            <td>1,305 kg (2,877 lb)</td>
+                            <td>1,305 kg (2,877 lb)</td>
+                            <td>1,237 kg (2,727 lb)</td>
+                            <td>1,237 kg (2,727 lb)</td>
+                            <td>1,237 kg (2,727 lb)</td>
+                        </tr>
+                        <tr>
+                            <th>Top speed</th>
+                            <td>over 130 mph</td>
+                            <td>201 km/h (125 mph)</td>
+                            <td>201 km/h (125 mph)</td>
+                            <td>201 km/h (125 mph)</td>
+                            <td>201 km/h (125 mph)</td>
+                            <td>201 km/h (125 mph)</td>
+                        </tr>
+                        <tr>
+                            <th>Base price</th>
+                            <td>$80,000-$120,000</td>
+                            <td>$98,950</td>
+                            <td>$109,000</td>
+                            <td>$110,950</td>
+                            <td>$128,500</td>
+                            <td>Car+ $29,000</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
                 <h4>Awards:</h4>
                  <ul>
                     <li>INDEX: Award 2007.</li>
