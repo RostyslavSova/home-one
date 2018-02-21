@@ -11,30 +11,46 @@
       method="POST">
         <fieldset>
             <legend>Personalia:</legend>
-            <label>Name: <br><input type="text" name="username" placeholder="Name" required></label>
+            <label>Name: <br><input type="text" name="username" 
+                    placeholder="Name" required></label>
             <br>
-            <label>Password: <br><input type="password" name="password" placeholder="Password" required></label>
+            <label>Password: <br><input type="password" name="password" 
+                    placeholder="Password" required></label>
             <br>
-            <label>Email: <br><input type="email" name="email" placeholder="Email" required></label>
+            <label>Email: <br><input type="email" name="email" 
+                    placeholder="Email" required></label>
             <br>
-            <label>Date of birth: <br><input type="date" name="bdate" max="2002-12-31" ></label>
+            <label>Date of birth: <br><input type="date" name="bdate" 
+                    max="2002-12-31" ></label>
             <br>
             <label>Gender: <br>
-                    <label><input type="radio" name="gender" value="male"> Male</label>
-                    <label><input type="radio" name="gender" value="female"> Female</label>
-                    <label><input type="radio" name="gender" value="other"> Other</label>
+                    <label>
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female"> Female
+                        </label>
+                    <label>
+                        <input type="radio" name="gender" value="other"> Other
+                    </label>
             </label>
         </fieldset>
         <br>
         <fieldset>
             <legend>Questions:</legend>
             <p>1)You have a car?</p>
+            <label><input type="radio" name="have-car" value="yes"> Yes</label>
+            <label><input type="radio" name="have-car" value="no"> No</label>
             
-            <label><input type="radio" name="dlicense" value="yes"> Yes</label>
-            <label><input type="radio" name="dlicense" value="no"> No</label>
-            <p>2)What is your driving experience?</p>
-            <input type="number" name="dexp" min="0" max="70" title="Only the number of full years." placeholder="0">
-            <p>3)How satisfied are you with your car?</p>
+            <p>2)What is the brand of your car?</p>
+             <input type="text" name="user-car" placeholder="Brand">
+             
+            <p>3)What is your driving experience?</p>
+            <input type="number" name="user-drive-exp" min="0" max="70" 
+                   pattern="/[0-9]{2}/" title="Only the number of full years." 
+                   placeholder="0">
+            
+            <p>4)How satisfied are you with your car?</p>
             
               <input type="range" list="tickmarks" name="dsatisfy">
               <datalist id="tickmarks">
@@ -52,17 +68,33 @@
                       
               </datalist>
               
-            <p>4)Which of our cars do you like?</p>
-            <label><input type="checkbox" name="chossen-car1" value="Model-S"> Tesla Model S</label>
-            <label><input type="checkbox" name="chossen-car2" value="Model-X"> Tesla Model X</label>
-            <label><input type="checkbox" name="chossen-car3" value="Model-3"> Tesla Model 3</label>
-            <label><input type="checkbox" name="chossen-car4" value="Model-R"> Tesla Roadster</label>
+            <p>5)Which of our cars do you like?</p>
+            <label>
+                <input type="checkbox" name="chossen-car1" 
+                    value="Model-S"> Tesla Model S
+            </label>
+            <label>
+                <input type="checkbox" name="chossen-car2" 
+                    value="Model-X"> Tesla Model X
+            </label>
+            <label>
+                <input type="checkbox" name="chossen-car3" 
+                    value="Model-3"> Tesla Model 3
+            </label>
+            <label>
+                <input type="checkbox" name="chossen-car4" 
+                    value="Model-R"> Tesla Roadster
+            </label>
             
-            <p>5)Which is your favorite car color?</p>
-            <label><input type="color" name="favcolor" value="#000000"> press to select.</label>
+            <p>6)Which is your favorite car color?</p>
+            <label>
+                <input type="color" name="favcolor" value="#000000"> 
+                press to select.
+            </label>
            
-            <p>6)What are your favorite car body types?</p>
-            <select name="cars" size="4" multiple title="For multi check press and hold Ctrl">
+            <p>7)What are your favorite car body types?</p>
+            <select name="favorite-type-car" size="4" multiple 
+                    title="For multi check press and hold Ctrl">
               <option value="Hatchback">Hatchback</option>
               <option value="Sedan">Sedan</option>
               <option value="MPV">MPV</option>
@@ -73,7 +105,8 @@
             </select>
         </fieldset>
          <p>Additional Information</p>
-            <textarea rows="4" cols="50" placeholder="Put you're message here"></textarea>
+            <textarea rows="4" cols="50" name="user-message" 
+                placeholder="Put you're message here"></textarea>
             <br>
             <input type="submit">
         
